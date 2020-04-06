@@ -1,0 +1,18 @@
+# Create Git Repository
+
+1. Right click the folder to be added to repository and select git bash here. Then type following commands where **GitTestMarkUp** is the name of the folder in this example.
+
+    ```bash
+    git init
+    git add .
+    git commit -am 'GitTestMarkUp'
+    ```
+1. Go to **Github** and create a new repository. Copy and execute remote and push commands from the repository page as shown below.
+
+    ```bash
+    git remote add origin https://github.com/junaidaslam797/GitMarkUpTest.git
+
+    git push -u origin master
+    ```
+
+1. Reload the github page.
