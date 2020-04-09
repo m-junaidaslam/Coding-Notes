@@ -16,3 +16,11 @@
     ```
 
 1. Reload the github page.
+
+# Update remote branch
+Following following commands:
+```bash
+git add .
+git commit -m <message>
+git push origin <remote-branch>
+```
