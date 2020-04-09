@@ -1,6 +1,12 @@
 ___
 # Youtuber Documentation (more detailed)
 
+ [Link to documentation](https://danielmiessler.com/study/tmux/)	[Link to video](https://www.youtube.com/watch?v=BHhA_ZKjyxo)
+
+___
+
+
+
 
 ## 1. A Quick Command Reference
 * These all play off of the ctrl-b shortcut.
@@ -76,7 +82,8 @@ Tmux lets you keep things running persistently on servers, so you can disconnect
 * If you invoke tmux by itself, you’ll get dropped into a new session. And if you exit this session, you drop right back into your normal shell.
 
 * The ctrl–b shortcut is good to memorize.
-    > tmux
+  
+> tmux
 
 * Creating named sessions lets you reattach more easily.
     ```bash
@@ -90,7 +97,7 @@ Tmux lets you keep things running persistently on servers, so you can disconnect
 To detach from a session you invoke the shortcut (ctrl-b)—followed by d, for detatch, or by typing detach explicitly.
 
     > ctrl+b–d
-    
+  
     ```bash
     tmux detach
     ```
@@ -163,19 +170,24 @@ ___
 
 ## 1. TMUX Window Operations
 1. To start **TMUX**:
+   
     > tmux
     
 1. To create a new window:
-    > hit **Ctrl+B**, then press **c**
+   
+> hit **Ctrl+B**, then press **c**
 
 1. To close a pane or window:
-    > hit **Ctrl+D** or input **exit** and hit **Enter**
+   
+> hit **Ctrl+D** or input **exit** and hit **Enter**
 
 1. To rename a window:
-    > hit **Ctrl+B**, then press **comma(,)**, Enter the **name** of the window and press **Enter**
+   
+> hit **Ctrl+B**, then press **comma(,)**, Enter the **name** of the window and press **Enter**
 
 1. To switch window:
-    > hit **Ctrl+B**, then press **p** for previous and **n** for next window
+   
+> hit **Ctrl+B**, then press **p** for previous and **n** for next window
 
 1. To list and select window:
     > hit **Ctrl+B**, then press **w** to list windows
@@ -183,12 +195,15 @@ ___
 
 ## 2. TMUX Pane Operations
 1. To split windows vertically:
-    > hit **Ctrl+B**, then press **%**
+   
+> hit **Ctrl+B**, then press **%**
 
 1. To split windows horizontally:
-    > hit **Ctrl+B**, then press **Colon(:)**, then enter **split-window** and press **Enter**
+   
+> hit **Ctrl+B**, then press **Colon(:)**, then enter **split-window** and press **Enter**
 
 1. To close all windows:
+   
     > Either enter **exit** or close the window by **cross button**
 
 ## 3. Sessions
@@ -198,7 +213,8 @@ ___
     ```
 
 1. To detach from a session:
-    > hit **Ctrl+B**, then press **D**
+   
+> hit **Ctrl+B**, then press **D**
 
 1. To list running sessions, enter command:
     ```bash
