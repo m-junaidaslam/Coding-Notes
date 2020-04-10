@@ -30,7 +30,6 @@ rm -r <env-name>/
 ```
 
 
-
 ### You can make sure you are now working with Python 3:
 ```bash
 python -- version
@@ -57,13 +56,6 @@ sudo pip3 install virtualenvwrapper
 
 export WORKON_HOME=~/.virtualenvs
 
-# Mention python version to be used with it:
-VIRTUALENVWRAPPER_PYTHON='/usr/bin/python3'
-
-# Also mention the path where projects should be created and saved
-
-
-
 # Find the location of __virtualenvwrapper.sh__ and look for address like:
 #  /.local/bin/virtualenvwrapper.sh
 # using following command:
@@ -72,14 +64,16 @@ find / -name virtualenvwrapper.sh
 # Then open file .bashrc by:
 sudo nano ~/.bashrc
 
-# At the end of the file add the address found:
-# /.local/bin/virtualenvwrapper.sh
+# At the end of the file add some parameters and the address found:
+VIRTUALENVWRAPPER_PYTHON='/usr/bin/python3'
+PROJECT_HOME='~/workspace'
+. ~/.local/bin/virtualenvwrapper.sh
+
 # Save the file and continue with following commands:
 . .bashrc
 
 # And the virtual environment wrapper will be installed
 ```
-
 
 ## Usage
 [Link to Commands of virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html)
