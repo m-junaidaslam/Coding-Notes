@@ -33,3 +33,10 @@ $ sudo apt install php7.3-zip
 $ sudo apt-get update
 $ sudo apt-get upgrade
 ```
+# To be continued
+---
+---
+---
+
+# Magento Cloud Installation
+

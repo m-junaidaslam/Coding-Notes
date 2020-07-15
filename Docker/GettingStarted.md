@@ -89,3 +89,9 @@ $ sudo docker start <container-id>
 $ sudo docker attch <container-id>
 ```
 
+docker run -d \
+    --name phpmyadmin \
+    --network localhost \
+    -e PMA_HOST=mysql:5.7 \
+    -p 8080:80 \
+    phpmyadmin/phpmyadmin:edge
