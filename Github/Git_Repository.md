@@ -31,3 +31,13 @@ git push origin <remote-branch>
 ```
 
 ## [Rename Branch](https://linuxize.com/post/how-to-rename-local-and-remote-git-branch/)
+
+## Merge Develop to Master Branch
+
+```bash
+git merge master    # on branch develop
+# resolve any merge conflicts if there are any
+
+git checkout master
+git merge develop # there won't be any conflicts now
+```
